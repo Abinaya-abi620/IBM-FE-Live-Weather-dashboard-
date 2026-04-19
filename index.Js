@@ -4,7 +4,7 @@ document.getElementById("city-input-btn").onclick = function () {
   let city = document.getElementById("city-input").value;
   if (city) {
     getWeather(city);
-  }
+  
 };
 
 async function getWeather(city) {
